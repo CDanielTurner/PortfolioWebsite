@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.dropdown {
+    position: relative;
+    display: flex; /* Change display property to flex */
+    justify-content: left; /* Align items side by side */
+    align-items: center; /* Center items vertically */
+}
+
+.dropdown button {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 20vw;
+    box-shadow: 0px 2vw 4vw 0px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    border-color: gray;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: grey;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    top: 100%; /* Add this line to position the dropdown below the button */
+}
+
+.dropdown:hover .dropdown button {
+    background-color: grey;
+}
+
+h1 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.Project_Posts {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+
+}
+img.personal_ATS_Picture {
+    width: 10rem;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.project_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+}
