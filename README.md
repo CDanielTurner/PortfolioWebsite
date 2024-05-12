@@ -16,7 +16,7 @@ This is my personal project portfolio website, showcasing my work and skills as 
 - GitHub Pages
 
 ## Usage
-- Visit the live website at [your-website-url](https://your-website-url.com) to explore my portfolio.
+- Visit the live website at (https://cdanielturner.github.io/PortfolioWebsite/index.html) to explore my portfolio.
 - Navigate through the different sections to view my projects, read their descriptions, and see screenshots.
 - Use the contact information provided to get in touch with me for any inquiries or collaborations.
 
